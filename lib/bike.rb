@@ -1,3 +1,5 @@
+require 'docking_station'
+
 class Bike
 	
 	def initialize
