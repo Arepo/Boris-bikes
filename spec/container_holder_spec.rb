@@ -30,6 +30,14 @@ describe BikeContainer do
 		expect{container.release(bike)}.to raise_error(RuntimeError)
 	end
 
+	it "should raise a more descriptive error message if we don't specify what to release" do
+		expect{container.release()}.to raise_error(RuntimeError)
+	end
+
+	it "should object if you try to release a pigeon" do
+		expect{container.release("pigeon")}.to raise_error(RuntimeError)
+	end
+
 	it "should know when it's full" do
 		expect(container).not_to be_full
 		fill_container(container)
