@@ -31,6 +31,7 @@ describe BikeContainer do
 	end
 
 	it "should raise a more descriptive error message if we don't specify what to release" do
+		container.dock(bike)
 		expect{container.release()}.to raise_error(RuntimeError)
 	end
 
@@ -47,6 +48,10 @@ describe BikeContainer do
 	it "should not accept a bike it it's full" do
 		fill_container(container)
 		expect{container.dock(bike)}.to raise_error(RuntimeError)
+	end
+
+	it "should not accept a pigeon" do
+		expect{container.dock("pigeon")}.to raise_error(RuntimeError)
 	end
 
 	it 'should provide the list of available bikes' do
