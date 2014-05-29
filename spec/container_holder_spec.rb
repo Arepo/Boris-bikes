@@ -11,6 +11,7 @@ describe BikeContainer do
 	end
 
 	let(:bike) { Bike.new }
+	let(:broken_bike) { Bike.new.break!}
 	let(:container) { ContainerHolder.new }
 
 	it 'should accept a bike' do
@@ -45,7 +46,7 @@ describe BikeContainer do
 		expect(container).to be_full
 	end
 	
-	it "should not accept a bike it it's full" do
+	it "should not accept a bike if it's full" do
 		fill_container(container)
 		expect{container.dock(bike)}.to raise_error(RuntimeError)
 	end
@@ -54,12 +55,16 @@ describe BikeContainer do
 		expect{container.dock("pigeon")}.to raise_error(RuntimeError)
 	end
 
-	it 'should provide the list of available bikes' do
-		working_bike, broken_bike = Bike.new, Bike.new
-		broken_bike.break!
-		container.dock(working_bike)
+	it 'should provide the list of working bikes' do
+		container.dock(bike)
 		container.dock(broken_bike)
-		expect(container.available_bikes).to eq([working_bike])
+		expect(container.working_bikes).to eq([bike])
+	end
+
+	it 'should provide a list of broken bikes' do
+		container.dock(bike)
+		container.dock(broken_bike)
+		expect(container.broken_bikes).to eq([broken_bike])
 	end
 
 end
