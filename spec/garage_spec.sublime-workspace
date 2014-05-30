@@ -1,0 +1,430 @@
+{
+	"auto_complete":
+	{
+		"selected_items":
+		[
+			[
+				"be",
+				"be_true"
+			],
+			[
+				"greet",
+				"greet"
+			],
+			[
+				"de",
+				"debugger"
+			],
+			[
+				"bike",
+				"bike"
+			],
+			[
+				"take",
+				"take_bikes"
+			],
+			[
+				"b",
+				"bike2"
+			],
+			[
+				"bi",
+				"bike2"
+			],
+			[
+				"bik",
+				"bike1"
+			],
+			[
+				"takes",
+				"take_from_station"
+			],
+			[
+				"working",
+				"working_bikes"
+			],
+			[
+				"broken",
+				"broken_bike"
+			],
+			[
+				"st",
+				"station"
+			],
+			[
+				"raise",
+				"raise_error"
+			],
+			[
+				"ex",
+				"expect"
+			],
+			[
+				"Bike",
+				"BikeContainer"
+			],
+			[
+				"val",
+				"values_at"
+			],
+			[
+				"D",
+				"DockingStation"
+			],
+			[
+				"not",
+				"not_to"
+			],
+			[
+				"bikes",
+				"bikes"
+			],
+			[
+				"gr",
+				"garage"
+			],
+			[
+				"is",
+				"is_a"
+			],
+			[
+				"defau",
+				"default_proc"
+			],
+			[
+				"co",
+				"contents"
+			],
+			[
+				"ho",
+				"hornblower"
+			],
+			[
+				"hor",
+				"horatio"
+			],
+			[
+				"cap",
+				"captain"
+			],
+			[
+				"star",
+				"start_with"
+			],
+			[
+				"hello",
+				"helloworld"
+			],
+			[
+				"pre",
+				"prepend"
+			],
+			[
+				"par",
+				"partition"
+			],
+			[
+				"ver",
+				"version"
+			],
+			[
+				"h",
+				"hello"
+			],
+			[
+				"argumt",
+				"argument2"
+			],
+			[
+				"gs",
+				"gsub"
+			],
+			[
+				"do",
+				"do_anything"
+			],
+			[
+				"each",
+				"each_char"
+			],
+			[
+				"full",
+				"full_grid"
+			],
+			[
+				"turn",
+				"turn_grid_to_2D_array"
+			],
+			[
+				"E",
+				"Euler11"
+			],
+			[
+				"so",
+				"sort_hand"
+			],
+			[
+				"ana",
+				"anagram"
+			],
+			[
+				"students",
+				"students_csv"
+			],
+			[
+				"dele",
+				"delete"
+			],
+			[
+				"sa",
+				"save_student_list"
+			],
+			[
+				"csv",
+				"csv"
+			],
+			[
+				"student",
+				"students"
+			],
+			[
+				"to",
+				"to"
+			],
+			[
+				"add",
+				"add_student"
+			],
+			[
+				"ad",
+				"add_student"
+			],
+			[
+				"list",
+				"list_students"
+			],
+			[
+				"first",
+				"first_nums"
+			]
+		]
+	},
+	"buffers":
+	[
+	],
+	"build_system": "",
+	"command_palette":
+	{
+		"height": 0.0,
+		"selected_items":
+		[
+		],
+		"width": 0.0
+	},
+	"console":
+	{
+		"height": 0.0,
+		"history":
+		[
+		]
+	},
+	"distraction_free":
+	{
+		"menu_visible": true,
+		"show_minimap": false,
+		"show_open_files": false,
+		"show_tabs": false,
+		"side_bar_visible": false,
+		"status_bar_visible": false
+	},
+	"file_history":
+	[
+		"/Users/sashacooper/Desktop/pogroms/lambdasetc/lib/lambdasetc",
+		"/Users/sashacooper/Desktop/pogroms/recursion/spec/arraysum_spec.rb",
+		"/Users/sashacooper/Desktop/pogroms/recursion/lib/arraysum.rb",
+		"/Users/sashacooper/Desktop/pogroms/recursion/lib/palindrome.rb",
+		"/Users/sashacooper/Desktop/pogroms/recursion/spec/palindrome_spec.rb",
+		"/Users/sashacooper/Desktop/pogroms/recursion/recursion.rb",
+		"/Users/sashacooper/Desktop/pogroms/bookprogs/hello/hello",
+		"/Users/sashacooper/Desktop/pogroms/Trot/lib/trot.rb",
+		"/Users/sashacooper/Desktop/pogroms/newbikes/spec/vans_spec.rb",
+		"/Users/sashacooper/Desktop/pogroms/newbikes/lib/vans.rb",
+		"/Users/sashacooper/Desktop/pogroms/bikes/spec/docking_station_spec.rb",
+		"/Users/sashacooper/Desktop/pogroms/bikes/spec/container_holder_spec.rb",
+		"/Users/sashacooper/Desktop/pogroms/bikes/spec/bike_spec.rb",
+		"/Users/sashacooper/Desktop/pogroms/bikes/spec/van_spec.rb",
+		"/Users/sashacooper/Desktop/pogroms/bikes/lib/bike_container.rb",
+		"/Users/sashacooper/Desktop/pogroms/bikes/lib/docking_station.rb",
+		"/Users/sashacooper/Desktop/pogroms/bikes/lib/bike.rb",
+		"/Users/sashacooper/Desktop/pogroms/bikes/lib/van.rb",
+		"/Users/sashacooper/Desktop/pogroms/methods/spec/enumerablemeths_spec.rb",
+		"/Users/sashacooper/Desktop/pogroms/bikes/test.rb",
+		"/Users/sashacooper/Desktop/pogroms/bikes/spec/container_holder.rb",
+		"/Users/sashacooper/Desktop/pogroms/bikes/container_holder.rb",
+		"/Users/sashacooper/Desktop/pogroms/bikes/spec/container_holder",
+		"/Users/sashacooper/Desktop/pogroms/bikes/spec/bike_container_spec.rb",
+		"/Users/sashacooper/Desktop/pogroms/bikes/lib/ContainerHolder.rb",
+		"/Users/sashacooper/Desktop/pogroms/methods/spec/hashmeths_spec.rb",
+		"/Users/sashacooper/Desktop/pogroms/boris/spec/garage_spec.rb",
+		"/Users/sashacooper/Desktop/pogroms/tdddirectory/lib/directory2.rb",
+		"/Users/sashacooper/Desktop/pogroms/euler12/euler12.rb",
+		"/Users/sashacooper/Desktop/pogroms/Euler11/spec/euler11_spec.rb",
+		"/Users/sashacooper/Desktop/pogroms/methods/test.rb",
+		"/Users/sashacooper/Desktop/pogroms/Github-test/branch-explain",
+		"/Users/sashacooper/Desktop/pogroms/Euler11/lib/euler11.rb",
+		"/Users/sashacooper/.profile",
+		"/Users/sashacooper/Desktop/pogroms/methods/spec/methods_spec.rb",
+		"/Users/sashacooper/Desktop/pogroms/methods/hashmeths.rb",
+		"/Users/sashacooper/Desktop/pogroms/methods/lib/methods.rb",
+		"/Users/sashacooper/Desktop/pogroms/nik/lib/nik.rb",
+		"/Users/sashacooper/Desktop/pogroms/nik/spec/nik_spec.rb",
+		"/Users/sashacooper/Desktop/pogroms/nik/spec/nik.rb",
+		"/Users/sashacooper/Desktop/pogroms/tdddirectory/instructions",
+		"/Users/sashacooper/Desktop/pogroms/tdddirectory/spec/directory2_spec.rb",
+		"/Users/sashacooper/Desktop/pogroms/Github-test/upstream-explain",
+		"/Users/sashacooper/Desktop/pogroms/Github-test/git-clone-explain",
+		"/Users/sashacooper/Desktop/pogroms/tdddirectory/anagram.rb",
+		"/Users/sashacooper/.gitconfig",
+		"/Users/sashacooper/Desktop/pogroms/tdddirectory/test.rb",
+		"/Users/sashacooper/Desktop/pogroms/bridgedealer.rb",
+		"/Users/sashacooper/Desktop/pogroms/tdddirectory/students.csv",
+		"/Users/sashacooper/Desktop/pogroms/my/public/files/t-vars.count",
+		"/Users/sashacooper/.bash_profile",
+		"/private/var/folders/5_/9q5jyxbj0j394jk_z1g2cjdm0000gn/T/my/public/files/text-files-count.txt",
+		"/private/var/folders/5_/9q5jyxbj0j394jk_z1g2cjdm0000gn/T/my/private/files/t-vars.env",
+		"/Users/sashacooper/Desktop/pogroms/tdddirectory/spec/students.csv",
+		"/Users/sashacooper/Desktop/pogroms/fibonacci/lib/fibonacci.rb",
+		"/Users/sashacooper/Desktop/pogroms/fibonacci/spec/fibonacci_spec.rb",
+		"/Users/sashacooper/Desktop/pogroms/fibonacci/lib/fibonnaci.rb",
+		"/Users/sashacooper/Desktop/pogroms/tdddirectory/.rspec",
+		"/Users/sashacooper/Desktop/pogroms/directory3/lib/directory3.rb",
+		"/Users/sashacooper/Desktop/pogroms/directory3/spec/directory3_spec.rb"
+	],
+	"find":
+	{
+		"height": 23.0
+	},
+	"find_in_files":
+	{
+		"height": 0.0,
+		"where_history":
+		[
+		]
+	},
+	"find_state":
+	{
+		"case_sensitive": false,
+		"find_history":
+		[
+			"availab",
+			"holder",
+			"bikes",
+			"puts",
+			"!}).",
+			"create_s",
+			"create_student_list",
+			"create_directory",
+			"create"
+		],
+		"highlight": true,
+		"in_selection": false,
+		"preserve_case": false,
+		"regex": false,
+		"replace_history":
+		[
+			"container",
+			"bike",
+			"students"
+		],
+		"reverse": false,
+		"show_context": true,
+		"use_buffer2": true,
+		"whole_word": false,
+		"wrap": true
+	},
+	"groups":
+	[
+		{
+			"sheets":
+			[
+			]
+		}
+	],
+	"incremental_find":
+	{
+		"height": 23.0
+	},
+	"input":
+	{
+		"height": 0.0
+	},
+	"layout":
+	{
+		"cells":
+		[
+			[
+				0,
+				0,
+				1,
+				1
+			]
+		],
+		"cols":
+		[
+			0.0,
+			1.0
+		],
+		"rows":
+		[
+			0.0,
+			1.0
+		]
+	},
+	"menu_visible": true,
+	"output.find_results":
+	{
+		"height": 0.0
+	},
+	"project": "garage_spec.sublime-project",
+	"replace":
+	{
+		"height": 42.0
+	},
+	"save_all_on_build": true,
+	"select_file":
+	{
+		"height": 0.0,
+		"selected_items":
+		[
+		],
+		"width": 0.0
+	},
+	"select_project":
+	{
+		"height": 0.0,
+		"selected_items":
+		[
+		],
+		"width": 0.0
+	},
+	"select_symbol":
+	{
+		"height": 0.0,
+		"selected_items":
+		[
+		],
+		"width": 0.0
+	},
+	"settings":
+	{
+	},
+	"show_minimap": false,
+	"show_open_files": false,
+	"show_tabs": true,
+	"side_bar_visible": true,
+	"side_bar_width": 150.0,
+	"status_bar_visible": true,
+	"template_settings":
+	{
+	}
+}
