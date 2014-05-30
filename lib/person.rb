@@ -16,4 +16,8 @@ class Person
 		return @bike.break! if @bike != nil
 	end
 
+	def return_bike
+		@bike = nil
+	end
+
 end
