@@ -19,6 +19,7 @@ module BikeContainer
 	end
 
 	def dock(bike)
+		raise "You're all out of bikes" if bike.class == nil
 		raise "I don't accept #{bike}s" if bike.class != Bike
 		raise "There is no more room for bikes" if full?
 		bikes << bike

@@ -2,23 +2,22 @@ require 'person'
 
 describe Person do
 	
-	let(:noob) {Person.new}
+	let(:noob) { Person.new }
 	let(:bike) { double :bike }
-	let(:jockey) {Person.new(bike)}
+	let(:jockey) { Person.new(bike) }
+	let(:station) {double :station, release: :bike, dock: true}
 
 	it 'should not have a bike to begin with' do
 		expect(noob).not_to have_bike
 	end
 
 	it 'should be able to take a bike' do
-		station = double :station, release: :bike
 		noob.take_bike_from(station)
 		expect(noob).to have_bike
 	end
 
 	it 'should remove a bike from the docking station' do
-		station = double :station
-		expect(station).to receive(:release).and_return(:bike)
+		expect(station).to receive(:release)
 		noob.take_bike_from(station)
 	end
 
@@ -28,8 +27,12 @@ describe Person do
 	end
 
 	it 'should be able to return a bike' do
-		jockey.return_bike
+		jockey.return_bike_to(station)
 		expect(jockey).not_to have_bike
 	end
 
+	it 'should give the returned bike to a station' do
+		expect(station).to receive(:dock).with(bike)
+		jockey.return_bike_to(station)
+	end
 end

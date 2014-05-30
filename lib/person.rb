@@ -13,10 +13,11 @@ class Person
 	end
 
 	def falls
-		return @bike.break! if @bike != nil
+		@bike.break! unless @bike.nil?
 	end
 
-	def return_bike
+	def return_bike_to(station)
+		station.dock(@bike)
 		@bike = nil
 	end
 
