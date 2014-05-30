@@ -9,9 +9,7 @@ class Person
 	end
 
 	def take_bike_from(station)
-		@bike = true
-		# station.release(station.working_bikes.last)
-
+		@bike = station.release
 	end
 
 	def falls
