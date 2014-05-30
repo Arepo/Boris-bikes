@@ -5,8 +5,8 @@ class Van
 
 	include BikeContainer
 
-	def take(bike, source)
-		bikes << source.release(bike)
+	def take(source)
+		bikes << source.release
 	end
 
 	

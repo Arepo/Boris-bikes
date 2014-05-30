@@ -9,7 +9,7 @@ describe Van do
 
 	it 'must take offered bike from docking station' do
 		station.dock(bike)
-		van.take(bike, station)
+		van.take(station)
 		expect(van.bike_count).to eq 1
 		expect(station.bike_count).to eq 0
 	end

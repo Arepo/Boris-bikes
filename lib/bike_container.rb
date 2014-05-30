@@ -24,11 +24,11 @@ module BikeContainer
 		bikes << bike
 	end
 
-	def release(bike = nil)
-		raise "I don't have any #{bike}s." if bike.class != Bike
-		raise "I don't know what to release" if bike == nil
+	def release
+		# raise "I don't know what to release" if bike == nil - from previous version
+		# raise "I don't have any #{bike}s." if bike.class != Bike - from previous version
 		raise "I don't have any bikes." if empty?
-		bikes.delete(bike)
+		bikes.pop
 	end
 
 	def empty?
